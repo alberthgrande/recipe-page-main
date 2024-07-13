@@ -1,0 +1,22 @@
+@import url("./reset.css");
+@import url("./root.css");
+@import url("./mobile.css");
+@import url("./desktop.css");
+
+body {
+  font-family: "Outfit", sans-serif;
+  display: grid;
+  place-content: center;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Young Serif", serif;
+}
+h2 {
+  color: var(--neutral-wenge-brown);
+}
+section {
+  margin: 2rem 0;
+}
