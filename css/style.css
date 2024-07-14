@@ -23,6 +23,10 @@ section {
   margin: 2rem 0;
 }
 
+hr {
+  border: 1px solid var(--neutral-light-grey);
+}
+
 .preparation-list li::marker,
 span,
 .instructions-list li::marker,
