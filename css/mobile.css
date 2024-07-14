@@ -1,24 +1,23 @@
 @import url("./root.css");
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 735px) {
   h2 {
     font-size: 2rem;
+  }
+  .container {
+    background-color: var(--neutral-white);
   }
   .container-fluid {
     margin: 0 2rem;
   }
 
   .title-header {
-    font-size: 2.7rem;
+    font-size: 2rem;
     font-weight: var(--font-weight-700);
-    line-height: 1;
-  }
-
-  .title-info {
-    margin-top: 1.5rem;
+    line-height: 1.1;
+    letter-spacing: 2px;
   }
 
   .preparation {
-    background: var(--neutral-rose-white);
   }
 }

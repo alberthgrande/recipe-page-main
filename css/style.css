@@ -4,19 +4,70 @@
 @import url("./desktop.css");
 
 body {
-  font-family: "Outfit", sans-serif;
   display: grid;
   place-content: center;
+  font-family: var(--font-family-outfit);
+  color: var(--neutral-wenge-brown);
+  background: var(--neutral-eggshell);
 }
 
 h1,
-h2,
-h3 {
-  font-family: "Young Serif", serif;
+h2 {
+  font-family: var(--font-family-young-serif);
 }
 h2 {
-  color: var(--neutral-wenge-brown);
+  color: var(--primary-nutmeg);
+  font-weight: var(--font-weight-400);
 }
 section {
   margin: 2rem 0;
+}
+
+.preparation-list li::marker,
+span,
+.instructions-list li::marker,
+span {
+  color: var(--neutral-wenge-brown);
+  font-weight: var(--font-weight-700);
+}
+
+.nutritions-table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.nutritions-table tr td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.nutritions-table tr td:nth-child(2) {
+  color: var(--primary-nutmeg);
+  font-weight: var(--font-weight-700);
+}
+
+.preparation {
+  background: var(--neutral-rose-white);
+  border-radius: 15px;
+  padding: 1.5rem;
+}
+
+.preparation-header {
+  color: var(--primary-dark-rasberry);
+  font-size: 20px;
+}
+
+.nutritions-info {
+  margin: 1rem 0;
+}
+
+.preparation-list li,
+.ingredients-list li,
+.instructions-list li {
+  line-height: 2.5;
+}
+
+.title-info {
+  margin-top: 1.5rem;
 }
